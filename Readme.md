@@ -65,28 +65,25 @@ The proposed **Arduino-based system** continuously monitors rainfall using a rai
 
 ---
 
-## 4. Circuit & Architecture
+## 4. Circuit & Architecture Diagrams
 
-### 4.1 Circuit Diagram
 <p align="center">
-  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Circuit_Diagram.png" alt="Circuit Diagram" width="600"/>
+  <img src="Diagrams/Architecture_Diagram.png" alt="Architecture Diagram" width="600"/>
 </p>
-<p align="center"><b>Figure 2:</b> Circuit diagram of the Automatic Rain Detector and Cloth Drying Stand using Arduino.</p>
+<p align="center"><b>Figure 1:</b> Architecture diagram of the Automatic Rain Detector and Cloth Drying Stand.</p>
 
-### 4.2 Architecture Diagram
 <p align="center">
-  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Architecture_Diagram.png" alt="Architecture Diagram" width="600"/>
+  <img src="Diagrams/Circuit_Diagram.png" alt="Circuit Diagram" width="600"/>
 </p>
-<p align="center"><b>Figure 2:</b> Architecture diagram showing system components and data flow.</p>
+<p align="center"><b>Figure 2:</b> Circuit diagram of the Automatic Rain Detector and Cloth Drying Stand.</p>
 
----
+## Screenshot
 
-## 5. Screenshot
 <p align="center">
-  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Screenshot of The Automatic Rain Detector and Cloth Drying Stand Using Arduino.png" alt="Project Screenshot" width="600"/>
+  <img src="Diagrams/Screenshot.png" alt="Project Screenshot" width="600"/>
 </p>
-<p align="center"><b>Figure 3:</b> Screenshot of the Automatic Rain Detector and Cloth Drying Stand using Arduino in action.</p>
----
+<p align="center"><b>Figure 3:</b> Screenshot of the Automatic Rain Detector and Cloth Drying Stand in action.</p>
+
 
 ## 6. Conclusion
 The **Automatic Rain Detector and Cloth Drying Stand** provides an effective solution for protecting clothes from rain while automating the drying process. It ensures convenience, saves time, and reduces manual monitoring. Features like **manual override** and **LCD status display** enhance usability. The system demonstrates how **Arduino-based automation** can be applied to everyday problems efficiently and affordably.
