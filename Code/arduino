@@ -1,0 +1,59 @@
+#include <Servo.h>
+
+Servo servo;
+int rainSensor = A0;           // Rain sensor analog pin
+int buzzer = 8;                // Buzzer connected to pin 8
+int threshold = 900;           // Adjust if needed
+int consecutiveRainReadings = 0;
+int consecutiveDryReadings = 0;
+int requiredCount = 3;         // Needed to confirm rain
+bool rainAlerted = false;
+
+void setup() {
+  servo.attach(9);             // Servo on pin 9
+  servo.write(0);              // Initial drying position
+  pinMode(buzzer, OUTPUT);
+  digitalWrite(buzzer, LOW);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int sensorValue = analogRead(rainSensor);
+  Serial.print("Rain sensor value: ");
+  Serial.println(sensorValue);
+
+  if (sensorValue < threshold) {
+    consecutiveRainReadings++;
+    consecutiveDryReadings = 0;
+    Serial.println("Rain Reading Detected");
+  } else {
+    consecutiveDryReadings++;
+    consecutiveRainReadings = 0;
+    Serial.println("Dry Reading Detected");
+  }
+
+  // When rain is confirmed
+  if (consecutiveRainReadings >= requiredCount && !rainAlerted) {
+    Serial.println("Rain confirmed! Activating buzzer & servo.");
+    servo.write(90); // Move to cover position
+
+    // More and longer beeps for loudness
+    for (int i = 0; i < 10; i++) {
+      digitalWrite(buzzer, HIGH);
+      delay(500);   // Longer beep (0.5 sec)
+      digitalWrite(buzzer, LOW);
+      delay(200);   // Small pause between beeps
+    }
+
+    rainAlerted = true;
+  }
+
+  // When it becomes dry again
+  if (consecutiveDryReadings >= requiredCount && rainAlerted) {
+    Serial.println("Dry confirmed! Resetting servo.");
+    servo.write(0); // Return to drying position
+    rainAlerted = false;
+  }
+
+  delay(200); // Small delay for stability
+}
