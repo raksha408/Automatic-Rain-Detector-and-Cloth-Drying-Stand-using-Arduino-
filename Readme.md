@@ -80,10 +80,10 @@ The proposed **Arduino-based system** continuously monitors rainfall using a rai
 ## Screenshot
 
 <p align="center">
-  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Screenshot%20of%20The%20Automatic%20Rain%20Detector%20and%20Cloth%20Drying%20Stand%20Using%20Arduino.png" alt="Project Screenshot" width="600"/>
+  <img src="Diagrams/Screenshot_Automatic_Rain_Detector.png" alt="Project Screenshot" width="600"/>
+  <br>
+  <b>Figure 3:</b> Screenshot of the Automatic Rain Detector and Cloth Drying Stand Using Arduino
 </p>
-<p align="center"><b>Figure 3:</b> Screenshot of the Automatic Rain Detector and Cloth Drying Stand in action.</p>
-
 
 ## 6. Conclusion
 The **Automatic Rain Detector and Cloth Drying Stand** provides an effective solution for protecting clothes from rain while automating the drying process. It ensures convenience, saves time, and reduces manual monitoring. Features like **manual override** and **LCD status display** enhance usability. The system demonstrates how **Arduino-based automation** can be applied to everyday problems efficiently and affordably.
