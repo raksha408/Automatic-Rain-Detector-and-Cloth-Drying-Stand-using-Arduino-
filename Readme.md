@@ -68,16 +68,25 @@ The proposed **Arduino-based system** continuously monitors rainfall using a rai
 ## 4. Circuit & Architecture
 
 ### 4.1 Circuit Diagram
-*(Insert your circuit diagram image here using Markdown)*
+### 4.1 Circuit Diagram
+<p align="center">
+  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Circuit_Diagram.png" alt="Circuit Diagram" width="600"/>
+</p>
+<p align="center"><b>Figure 1:</b> Circuit diagram of the Automatic Rain Detector and Cloth Drying Stand using Arduino.</p>
 
 ### 4.2 Architecture Diagram
-*(Insert architecture diagram showing Arduino, rain sensor, motor, LCD, and other components)*
+<p align="center">
+  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Architecture_Diagram.png" alt="Architecture Diagram" width="600"/>
+</p>
+<p align="center"><b>Figure 2:</b> Architecture diagram showing system components and data flow.</p>
 
 ---
 
 ## 5. Screenshot
-*(Include screenshot of your project in action, e.g., LCD status or stand movement)*  
-
+<p align="center">
+  <img src="Automatic-Rain-Detector-and-Cloth-Drying-Stand-using-Arduino-/Diagrams/Screenshot of The Automatic Rain Detector and Cloth Drying Stand Using Arduino.png" alt="Project Screenshot" width="600"/>
+</p>
+<p align="center"><b>Figure 3:</b> Screenshot of the Automatic Rain Detector and Cloth Drying Stand using Arduino in action.</p>
 ---
 
 ## 6. Conclusion
